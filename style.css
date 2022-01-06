@@ -91,7 +91,9 @@ p.scroll_down {
 }
 .boxTwo {background: silver;  margin: 36px;
     border-radius: 20px;}
-/* mission section End here */ 
+/* mission section End here */  
+
+/* service section start here */ 
 .serviceSectionWrapper {
     display: flex;
 } 
@@ -118,4 +120,22 @@ button.serviceBtn a {
 }
 img.serviceImg {
     width: 100%;
+}  
+/* service section end here */ 
+/* Global section start here */ 
+
+.global-section {
+    display: flex;
 }
+
+.about_community {
+    margin-top: 30px;
+} 
+
+.global_img {
+    background-image: url(./Images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+} 
+/* Global section end here */ 
