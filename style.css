@@ -150,6 +150,40 @@ img.serviceImg {
     background-position: right;
 } 
 /* Global section end here */   
+/* contact section start here */   
+.conatct_wraper {
+    display: flex;
+}
+
+.contact_me.half_width {
+    margin-top: 71px;
+}
+
+input {
+    padding: 10px 24px;
+    display: inherit;
+    margin: 10px;
+    outline: none;
+    border-color: #d9968a;
+    border-radius: 10px;
+}
+
+textarea {
+    border-color: #c97161;
+    font-size: 12px; 
+    border-radius: 18px;
+}
+h1.contactMe {
+    text-transform: capitalize;
+    color: tomato;
+    font-weight: bold;
+}
+button {
+    display: inherit;
+} 
+/* contact section end here */   
+
+
 /* footer section start here */
 footer {
     background: black;
