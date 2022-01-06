@@ -85,12 +85,20 @@ p.scroll_down {
     background: #ff4c0724;
     margin: 36px;
     border-radius: 20px;
-} 
+}  
+.boxOne p {
+    font-size: 16px;
+    font-weight: bold;
+}
 .boxTwo.half_width {
     background: #9edaf3;
 }
 .boxTwo {background: silver;  margin: 36px;
-    border-radius: 20px;}
+    border-radius: 20px;} 
+    .boxTwo p { 
+        font-size: 16px;
+        font-weight: bold;
+    }
 /* mission section End here */  
 
 /* service section start here */ 
