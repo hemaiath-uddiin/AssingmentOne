@@ -54,7 +54,8 @@ button.my_btn {
 .aboutMeDes {
     font-size: 21px;
     font-weight: bold;
-    color: black;
+    color: black; 
+    text-transform: capitalize;
 }
 button.my_btn a {
     text-decoration: none;
@@ -88,10 +89,12 @@ p.scroll_down {
 }  
 .boxOne p {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bold; 
+    text-transform: capitalize;
 }
 .boxTwo.half_width {
-    background: #9edaf3;
+    background: #9edaf3; 
+    text-transform: capitalize;
 }
 .boxTwo {background: silver;  margin: 36px;
     border-radius: 20px;} 
@@ -146,4 +149,15 @@ img.serviceImg {
     background-size: contain;
     background-position: right;
 } 
-/* Global section end here */ 
+/* Global section end here */   
+/* footer section start here */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 13px 5px;
+} span {
+    color: tomato;
+}
+
+/* footer section end here */
